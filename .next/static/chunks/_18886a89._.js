@@ -645,17 +645,17 @@ const Footer = ()=>{
             title: "CONTACT",
             links: [
                 {
-                    text: "+1-212-456-7890",
+                    text: "+254714 818 100",
                     path: '/',
                     icon: MailIcon
                 },
                 {
-                    text: "contact@example.com",
+                    text: "hkcyber20@gmail.com",
                     path: '/',
                     icon: PhoneIcon
                 },
                 {
-                    text: "794 Francisco, 94102",
+                    text: "Kikuyu,Wangige 00614",
                     path: '/',
                     icon: MapPinIcon
                 }
