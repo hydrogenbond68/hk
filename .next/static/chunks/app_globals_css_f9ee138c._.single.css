@@ -67,7 +67,6 @@
     --color-red-50: oklch(97.1% .013 17.38);
     --color-red-100: oklch(93.6% .032 17.717);
     --color-red-500: oklch(63.7% .237 25.331);
-    --color-red-700: oklch(50.5% .213 27.518);
     --color-red-800: oklch(44.4% .177 26.899);
     --color-orange-200: oklch(90.1% .076 70.697);
     --color-yellow-100: oklch(97.3% .071 103.193);
@@ -636,10 +635,6 @@
 
   .mb-40 {
     margin-bottom: calc(var(--spacing) * 40);
-  }
-
-  .ml-1 {
-    margin-left: calc(var(--spacing) * 1);
   }
 
   .ml-3 {
@@ -1801,10 +1796,6 @@
     color: var(--color-slate-600);
   }
 
-  .accent-gray-500 {
-    accent-color: var(--color-gray-500);
-  }
-
   .shadow {
     --tw-shadow: 0 1px 3px 0 var(--tw-shadow-color, #0000001a), 0 1px 2px -1px var(--tw-shadow-color, #0000001a);
     box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
@@ -2021,6 +2012,12 @@
   }
 
   @media (hover: hover) {
+    .hover\:bg-green-800:hover {
+      background-color: var(--color-green-800);
+    }
+  }
+
+  @media (hover: hover) {
     .hover\:bg-indigo-600:hover {
       background-color: var(--color-indigo-600);
     }
@@ -2057,12 +2054,6 @@
   }
 
   @media (hover: hover) {
-    .hover\:bg-slate-800:hover {
-      background-color: var(--color-slate-800);
-    }
-  }
-
-  @media (hover: hover) {
     .hover\:bg-slate-900:hover {
       background-color: var(--color-slate-900);
     }
@@ -2071,12 +2062,6 @@
   @media (hover: hover) {
     .hover\:text-gray-700:hover {
       color: var(--color-gray-700);
-    }
-  }
-
-  @media (hover: hover) {
-    .hover\:text-red-700:hover {
-      color: var(--color-red-700);
     }
   }
 

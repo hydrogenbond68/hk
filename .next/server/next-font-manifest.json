@@ -2,9 +2,6 @@
   "app": {
     "[project]/app/(public)/page": [
       "static/media/QGYvz_MVcBeNP4NJtEtqUYLknw-s.p.07dd827d.woff2"
-    ],
-    "[project]/app/(public)/shop/[username]/page": [
-      "static/media/QGYvz_MVcBeNP4NJtEtqUYLknw-s.p.07dd827d.woff2"
     ]
   },
   "appUsingSizeAdjust": true,
